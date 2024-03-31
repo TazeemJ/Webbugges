@@ -1,0 +1,18 @@
+ install viteSetup : --npm create vite@latest my-project 
+                   : --   cd my-project
+config TwailWing : -- npm install -D tailwindcss postcss autoprefixer
+                  -- npx tailwindcss init -p
+                    Follow TailWind Docs
+RuNDev            -- npm run dev
+
+icon install   -- npm i react-icons
+                --react-icon-library "https://react-icons.github.io/react-icons/"
+                
+
+
+
+
+
+
+
+  ss detail in react js 

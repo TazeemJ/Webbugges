@@ -1,0 +1,31 @@
+:root {
+  --color-primary-blue-light: #55f3ef;
+  --color-green-dark: #002f37;
+  --color-gray-dark: #333333;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-light: #91eaf9;
+  --color-blue: #00a5d3;
+  --bebus-font: "Bebas Neue";
+  --lato-font: "Lato", sans-serif;
+  --poppins-font: "Poppins", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    width: 1140px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  display: block !important;
+  width: 100%;
+  box-sizing: border-box;
+}

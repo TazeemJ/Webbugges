@@ -1,0 +1,40 @@
+@media only screen and (min-width: 990px) {
+  .blog-page-content .row {
+    gap: 15px !important;
+  }
+  .blog-page-content .col-lg-4 {
+    max-width: 32% !important;
+  }
+}
+.blog-page-post-div {
+  margin: 30px 0;
+  padding: 0;
+  transition: 0.4s;
+  box-shadow: 0px 0px 0px 1px rgba(156, 156, 156, 0.5);
+}
+.feature-image img {
+  width: 100%;
+}
+.post-title a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: normal;
+  display: block;
+  margin-top: 10px;
+  font-family: Poppins;
+  font-weight: 700;
+  padding: 0 12px;
+}
+.post-content {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: normal;
+  color: black;
+  padding: 0 12px;
+}
+.blog-page-post-div:hover {
+  box-shadow: 0px 0px 15px 0px rgba(156, 156, 156, 0.5);
+  transition: 0.4s;
+}

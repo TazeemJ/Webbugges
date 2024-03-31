@@ -1,0 +1,122 @@
+.section-footer_custom {
+  padding: 0 !important;
+  background: #2d2d2d;
+  color: white;
+  padding: 4% 0 3.3% 0 !important;
+}
+
+.center-footer-row-2-8-row {
+  height: 65%;
+}
+.center-footer-left-img-container {
+  width: 46%;
+  align-items: center;
+}
+.row.footer-links-row {
+  display: grid;
+  grid-template-columns: 1.2fr 0.7fr 1.2fr;
+}
+.top-bar-footer .row {
+  padding: 5px 0 10px 0 !important;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  box-sizing: border-box !important;
+  padding: 0 8%;
+}
+.center-footer-center-text {
+  color: #999999;
+  font-size: 16px !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  max-width: 90%;
+}
+.footer-sec-heading h3 {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+}
+.center-footer-row-2 ul {
+  list-style: none;
+  padding: 0px;
+}
+.center-footer-row-2 ul li {
+  font-size: 14px;
+  padding: 0;
+  white-space: nowrap;
+}
+.center-footer-row-2 ul li a {
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.center-footer-row-2 ul li i {
+  font-size: 11px;
+  padding: 0 15px 0 5px;
+}
+.top-bar-footer .row {
+  padding: 5px 0 10px 0 !important;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  box-sizing: border-box !important;
+  padding: 0 8%;
+}
+.center-footer-row-1-content-container {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+.center-footer-row-1-icon-container {
+  color: #48c4e8;
+  font-size: 14px;
+  line-height: 1;
+  margin-right: 10px;
+  align-self: flex-start;
+  padding: 0 5px 0 0px;
+}
+.center-footer-row-1-p {
+  margin-bottom: 0;
+  color: #999999;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 17px;
+  font-size: 13px !important;
+}
+.icon-box-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: initial;
+  max-width: 200px;
+  padding-top: 0;
+  /* padding-left: 30px; */
+}
+.section-footer-icon-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  margin-right: 45px;
+}
+.footer-bottom-bar {
+  background-color: #b3b3b3;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+.footer-bottom-bar-p::before {
+  content: " \0040";
+}
+.footer-bottom-bar-p {
+  font-size: 14px !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 11px 0px 3px 0;
+}

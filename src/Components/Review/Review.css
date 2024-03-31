@@ -1,0 +1,27 @@
+section.review-sec {
+  padding: 60px 0 11% 0;
+}
+.review-slider-wrpaer {
+  padding: 0 0 40px 0;
+  max-width: 395px;
+}
+.review-slier-content img {
+  max-width: 62px;
+  margin: 0 0 43px 0;
+}
+.review-sec .section-desc p {
+  text-align: left;
+}
+.review-slier-content h5 {
+  color: #444444;
+  margin: 0;
+  padding: 19px 0 5px 0;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.review-main-img {
+  max-width: 450px;
+  margin: auto;
+}

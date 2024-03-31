@@ -1,0 +1,30 @@
+.hero-section {
+  background-image: url("https://webbuggs.com/wp-content/uploads/2023/09/Rectangle-1261-1.webp");
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  /* padding: 2% 0 2% 0; */
+  height: 413px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.hero-left-content-wraper {
+  max-width: 95%;
+}
+.hero-left-content-wraper {
+  text-align: center;
+}
+.hero-left-content-wraper h1 {
+  font-size: 86px;
+  line-height: 45px;
+  color: white;
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+}

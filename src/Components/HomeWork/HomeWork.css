@@ -1,0 +1,36 @@
+.how-work.section-desc p {
+  max-width: 740px;
+  margin: auto;
+  text-align: center;
+  padding: 0 0 6% 0;
+}
+.how-work-img {
+  max-width: 395px;
+  margin: auto;
+}
+.how-work-img img {
+  max-width: 100%;
+  height: auto;
+}
+.how-slider-content {
+  padding: 0 0 8% 0;
+}
+.how-slider-content h3 {
+  font-family: Poppins;
+  color: #000000;
+  font-size: 24px;
+  line-height: 57px;
+  margin: 0;
+}
+.how-slider-content h3 span {
+  color: #00a4d2;
+}
+.how-work-wrpaer .section-desc p {
+  text-align: left;
+  max-width: 92%;
+}
+.how-work-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
