@@ -1,0 +1,36 @@
+header.my-job-header {
+  background-image: url("https://webbuggs.com/wp-content/uploads/2022/12/Asset-72@2x.jpg-1.png");
+  height: 400px;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: self-end;
+  padding: 0 0 60px 0;
+  justify-content: center;
+}
+.header-content-wraper {
+  text-align: center;
+  color: white;
+}
+.header-content-wraper h1 {
+  color: white;
+  font-family: var(--bebus-font);
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 58px;
+  margin: 0;
+}
+.header-content-wraper h5 {
+  color: #e6e6e6;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0px 0 8px 0;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}

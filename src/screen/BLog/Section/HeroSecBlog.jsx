@@ -2,11 +2,11 @@ import React from "react";
 import "./HeroSecBlog.css";
 const HeroSecBlog = () => {
   return (
-    <section class="hero-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="hero-left-content-wraper">
+    <section className="hero-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="hero-left-content-wraper">
               <h1>
                 <span></span>Blog
               </h1>

@@ -1,0 +1,23 @@
+#secHeading.help-sec {
+  /* padding: 6% 0 5% 0; */
+  padding: 4% 0 0 0;
+}
+#secHeading .help-content-wraper {
+  text-align: center;
+}
+#secHeading .section-heading h3 {
+  font-family: var(--bebus-font);
+  font-weight: 700;
+  font-size: 48px;
+  color: black;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 0px;
+}
+#secHeading .section-heading + i {
+  font-size: 12px;
+}
+#secHeading .section-heading h3 span {
+  color: #03a6d9;
+}

@@ -1,0 +1,72 @@
+h3.job-opening-heading.HeadingForJob {
+  text-align: left;
+  font-family: var(--bebus-font);
+  font-weight: 700;
+  font-size: 48px;
+  color: black;
+  line-height: 64px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 8% 0 0% 0;
+}
+h3.job-opening-heading span {
+  color: #03a6d9;
+}
+.jobOfferSection .jobsRow .v1 {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  float: left;
+  margin: 15px 0;
+  padding: 20px 20px 10px;
+  width: 100%;
+}
+span.job-title {
+  color: black !important;
+  text-align: left;
+  font-family: var(--bebus-font);
+
+  font-size: 28px;
+  color: black;
+  line-height: 34px;
+}
+.jobOfferSection .jobsRow .v1 .job-info {
+  margin: 0 0 10px;
+}
+.jobOfferSection .jobsRow a {
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.jobOfferSection .jobsRow .v1 .job-description p {
+  color: #666;
+  font-size: 15px !important;
+  margin: 0 0 10px;
+  word-wrap: break-word;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  line-height: 25px;
+}
+.jobOfferSection .jobsRow .v1 .sjb-apply-now-btn a {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.sjb-apply-now-btn a.btn.btn-primary {
+  background: #03a6d9;
+  border: none;
+  font-family: var(--bebus-font);
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  background: rgb(87, 97, 215);
+  background: #00a5d3;
+  border-radius: 9px;
+  padding: 8px 0px 5px 0;
+  display: block;
+  max-width: 141px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  margin: 30px 0 0 0;
+}
