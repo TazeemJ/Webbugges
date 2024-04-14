@@ -1,0 +1,28 @@
+section.our-client-slider-sec {
+  overflow: hidden;
+}
+
+.our-clint-logos .item img {
+  max-width: 190px !important;
+  margin: auto;
+}
+.our-client-slider-sec {
+  padding: 0 0 3% 0;
+}
+.our-client-slider-sec .custom-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 40px 0px 20px 0px;
+}
+.our-client-slider-sec .custom-dots li {
+  width: 30px;
+  height: 4px;
+  background-color: #cccccc;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+
+.our-client-slider-sec .custom-dots li.slick-active {
+  background-color: #999999;
+}

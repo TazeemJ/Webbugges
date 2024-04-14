@@ -15,6 +15,7 @@ import About from "./screen/About/About.jsx";
 import Jobs from "./screen/Jobs/Jobs.jsx";
 import Portfolio from "./screen/Portfolio/Portfolio.jsx";
 import Product from "./screen/Product/Product.jsx";
+import Services from "./screen/Services/Services.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: "", element: <Home /> },
+      { path: "/services", element: <Services /> },
       { path: "/product", element: <Product /> },
       { path: "/portfolio", element: <Portfolio /> },
       { path: "/jobs", element: <Jobs /> },

@@ -40,12 +40,9 @@ const Header = () => {
               </li>
               <li className="nav-item dropdown">
                 <Link
-                  to={"/product"}
+                  to={"/services"}
                   className="nav-link dropdown-toggle"
                   href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
                 >
                   Services
                 </Link>

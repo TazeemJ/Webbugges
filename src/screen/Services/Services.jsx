@@ -1,15 +1,17 @@
 import React from "react";
 import HeroSection from "../../Components/HeroSection/HeroSection";
-import Webdevelopment from "./Components/Webdevelopment/Webdevelopment";
-import CompanySlider from "../../Components/CompanySlider/CompanySlider";
+import WebDevServices from "./Components/WebDevServices/WebDevServices";
 import HomeWork from "../../Components/HomeWork/HomeWork";
-import "./Products.css";
-const Product = () => {
+import CompanySlider from "../../Components/CompanySlider/CompanySlider";
+
+const Services = () => {
   return (
     <div>
       <HeroSection
+        img={
+          "https://webbuggs.com/wp-content/uploads/2023/07/web_development_1-copy-2.png"
+        }
         col={5}
-        img={"https://webbuggs.com/wp-content/uploads/2023/10/Group-10236.png"}
       />
       <section className="help-sec" id="secHeading">
         <div className="container">
@@ -35,15 +37,15 @@ const Product = () => {
           </div>
         </div>
       </section>
-      <Webdevelopment Data={{ Direction: true }} />
-      <Webdevelopment Data={{ Direction: false }} />
-      <Webdevelopment Data={{ Direction: true }} />
-      <Webdevelopment Data={{ Direction: false }} />
-      <Webdevelopment Data={{ Direction: true }} />
+      <WebDevServices direction={true} />
+      <WebDevServices direction={false} />
+      <WebDevServices direction={true} />
+      <WebDevServices direction={false} />
+      <WebDevServices direction={true} />
       <HomeWork />
-      <CompanySlider />
+      <CompanySlider dots={true} />
     </div>
   );
 };
 
-export default Product;
+export default Services;

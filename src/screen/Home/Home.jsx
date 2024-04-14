@@ -7,6 +7,7 @@ import HomeWork from "../../Components/HomeWork/HomeWork";
 import Offer from "../../Components/Offer/Offer";
 import Review from "../../Components/Review/Review";
 import Form from "../../Components/Form/Form";
+import CompanySlider from "../../Components/CompanySlider/CompanySlider";
 const Home = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Home = () => {
       <Offer />
       <Review />
       <Form />
+      <CompanySlider dots={true} />
     </>
   );
 };

@@ -34,3 +34,31 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.how-work-col .slick-dots {
+  width: fit-content;
+  bottom: -60px;
+}
+
+.how-work-col .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px 0px;
+  padding: 0;
+  cursor: pointer;
+}
+.how-work-col .slick-dots li button::before {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #d8d8d8;
+  opacity: 1;
+  color: transparent;
+}
+.how-work-col .slick-dots li.slick-active button::before {
+  background: #d8d8d8;
+  border: 2px solid #00a4d2;
+}

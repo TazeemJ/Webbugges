@@ -28,3 +28,28 @@
   line-height: 30px;
   font-family: "Bebas Neue", sans-serif;
 }
+#our-services .services-row {
+  position: relative;
+}
+.ourServicesSliderButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourServicesSliderButton button {
+  font-size: 69px;
+  color: #037893;
+  background: none;
+  border: none;
+  position: absolute;
+  transform: translate(0%, -57%);
+  font-weight: 500;
+  top: 50%;
+}
+
+.ourServicesSliderButton button.next {
+  left: -30px;
+}
+.ourServicesSliderButton button.prev {
+  right: -30px;
+}

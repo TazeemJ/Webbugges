@@ -91,9 +91,11 @@ const Services = () => {
             })}
           </Slider>
 
-          <div>
-            <button onClick={goToPrevSlide}>Previous</button>
-            <button onClick={goToNextSlide}>Next</button>
+          <div className="ourServicesSliderButton">
+            <div className="buttonContainerSlider">
+              <button onClick={goToPrevSlide} className="next">&#8249; </button>
+              <button onClick={goToNextSlide} className="prev"> &#8250; </button>
+            </div>
           </div>
         </div>
       </div>

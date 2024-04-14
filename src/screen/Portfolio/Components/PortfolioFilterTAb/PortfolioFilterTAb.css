@@ -1,0 +1,144 @@
+/* styles.css */
+
+body {
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+  line-height: 22px;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #4bcaff;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.effect2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.effect2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #595959;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.effect2:hover,
+.effect2:focus,
+.effect2:active {
+  color: white;
+}
+
+.effect2:hover:before,
+.effect2:focus:before,
+.effect2:active:before {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+/*************************
+  ********* Portfolio CSS ******
+  **************************/
+
+.portfolio-item {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-filter {
+  list-style: none outside none;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.portfolio-filter > li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.portfolio-filter > li a {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border: 0;
+  padding: 8px 15px;
+  -webkit-border-radius: 5px 0 5px 0;
+  border-radius: 0 0 0 0;
+}
+
+.portfolio-filter > li a.people {
+  background: #f60;
+  color: #f60;
+}
+
+.portfolio-filter > li a.places {
+  background: #f90;
+  color: #f90;
+}
+
+.portfolio-filter > li a.food {
+  background: #09f;
+  color: #09f;
+}
+
+.portfolio-filter > li a.objects {
+  background: #6c0;
+  color: #6c0;
+}
+
+.portfolio-filter > li a:hover,
+.portfolio-filter > li a.active {
+  color: #fff;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.portfolioContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
