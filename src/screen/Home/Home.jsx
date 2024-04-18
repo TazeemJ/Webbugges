@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import Section from "../../Components/Section/Section";
 import Section1 from "../../Components/Section1/Section1";
@@ -9,6 +9,9 @@ import Review from "../../Components/Review/Review";
 import Form from "../../Components/Form/Form";
 import CompanySlider from "../../Components/CompanySlider/CompanySlider";
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <HeroSection />

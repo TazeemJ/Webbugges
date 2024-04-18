@@ -1,5 +1,7 @@
 import React from "react";
 import "./Foot.css";
+import FooterLogo from "../../assets/images/Footerlogo.png";
+
 const Footer = () => {
   return (
     <>
@@ -12,7 +14,7 @@ const Footer = () => {
                   <img
                     className="center-footer-left-img"
                     width={"100%"}
-                    src="https://webbuggs.com/wp-content/themes/wp-bootstrap-starter/inc/assets/web_buggs_images/main_page/min footer logo.png"
+                    src={FooterLogo}
                     alt="Footer Logo"
                   />
                 </div>

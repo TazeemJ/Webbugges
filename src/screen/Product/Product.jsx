@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import Webdevelopment from "./Components/Webdevelopment/Webdevelopment";
 import CompanySlider from "../../Components/CompanySlider/CompanySlider";
 import HomeWork from "../../Components/HomeWork/HomeWork";
 import "./Products.css";
+import ProductHeroImg from "../../assets/images/ProductHeroImg.png";
+
 const Product = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
-      <HeroSection
-        col={5}
-        img={"https://webbuggs.com/wp-content/uploads/2023/10/Group-10236.png"}
-      />
+      <HeroSection col={5} img={ProductHeroImg} />
       <section className="help-sec" id="secHeading">
         <div className="container">
           <div className="row">

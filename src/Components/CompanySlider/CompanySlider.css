@@ -9,20 +9,23 @@ section.our-client-slider-sec {
 .our-client-slider-sec {
   padding: 0 0 3% 0;
 }
-.our-client-slider-sec .custom-dots {
+.our-clint-logos .slick-dots {
   display: flex;
   justify-content: center;
   list-style: none;
-  margin: 40px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
+  position: relative;
 }
-.our-client-slider-sec .custom-dots li {
+.our-clint-logos .slick-dots li {
   width: 30px;
   height: 4px;
   background-color: #cccccc;
   margin: 0px 5px;
   border-radius: 10px;
 }
-
-.our-client-slider-sec .custom-dots li.slick-active {
+.our-clint-logos .slick-dots li button {
+  display: none;
+}
+.our-clint-logos .slick-dots li.slick-active {
   background-color: #999999;
 }

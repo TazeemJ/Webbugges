@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import "./Services.css";
 import Slider from "react-slick";
+import ServicesBackImg from "../../assets/images/ServicesBackImg.png";
+import ServicesImg from "../../assets/images/ServicesImg.png";
 
 const Services = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -77,13 +79,10 @@ const Services = () => {
                   <div
                     className="serives-wraper"
                     style={{
-                      backgroundImage: `url("https://webbuggs.com/wp-content/uploads/2022/10/Rectangle-1111.png")`,
+                      backgroundImage: `url("${ServicesBackImg}")`,
                     }}
                   >
-                    <img
-                      src="https://webbuggs.com/wp-content/uploads/2022/10/Group-10204.svg"
-                      alt=""
-                    />
+                    <img src={ServicesImg} alt="" />
                     <h4>App Development </h4>
                   </div>
                 </div>
@@ -93,8 +92,13 @@ const Services = () => {
 
           <div className="ourServicesSliderButton">
             <div className="buttonContainerSlider">
-              <button onClick={goToPrevSlide} className="next">&#8249; </button>
-              <button onClick={goToNextSlide} className="prev"> &#8250; </button>
+              <button onClick={goToPrevSlide} className="next">
+                &#8249;{" "}
+              </button>
+              <button onClick={goToNextSlide} className="prev">
+                {" "}
+                &#8250;{" "}
+              </button>
             </div>
           </div>
         </div>

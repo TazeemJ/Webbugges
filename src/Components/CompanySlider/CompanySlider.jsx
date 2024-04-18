@@ -1,19 +1,20 @@
 import React, { useRef, useState } from "react";
 import "./CompanySlider.css";
 import Slider from "react-slick";
+import CompanylogoSliderImg from "../../assets/images/CompanylogoSliderImg.png";
 
 const CompanySlider = ({ dots }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    speed: 300,
+    speed: 1000,
     slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     pauseOnHover: true,
     beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
@@ -43,29 +44,6 @@ const CompanySlider = ({ dots }) => {
     ],
   };
 
-  const handleDotClick = (index) => {
-    setCurrentSlide(index);
-    sliderRef.current.slickGoTo(index * settings.slidesToScroll);
-  };
-
-  const renderCustomDots = () => {
-    const dotsArray = [];
-    const totalSlides = 8; // Assuming total slides are 8
-    const startIndex = Math.max(0, currentSlide - 1);
-    const endIndex = Math.min(startIndex + 2, totalSlides - 1);
-
-    for (let i = startIndex; i <= endIndex; i++) {
-      dotsArray.push(
-        <li
-          key={i}
-          className={i === currentSlide ? "slick-active" : ""}
-          onClick={() => handleDotClick(i)}
-        ></li>
-      );
-    }
-    return dots && dotsArray;
-  };
-
   const sliderRef = useRef(null);
 
   return (
@@ -73,18 +51,16 @@ const CompanySlider = ({ dots }) => {
       <div className="container our-clint-logos">
         <div className="row">
           <Slider {...settings} ref={sliderRef}>
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((item, index) => {
-              return (
-                <div key={index} className="item mb-6">
-                  <img
-                    src="https://webbuggs.com/wp-content/uploads/2022/03/Asset-149.png"
-                    alt=""
-                  />
-                </div>
-              );
-            })}
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map(
+              (item, index) => {
+                return (
+                  <div key={index} className="item mb-6">
+                    <img src={CompanylogoSliderImg} alt="" />
+                  </div>
+                );
+              }
+            )}
           </Slider>
-          <ul className="custom-dots">{renderCustomDots()}</ul>
         </div>
       </div>
     </section>

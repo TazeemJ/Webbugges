@@ -1,12 +1,15 @@
 import React from "react";
 import "./HeroSection.css";
+import HomeHeroImg from "../../assets/images/HomeHeroImg.png";
+import HeroBackImg from "../../assets/images/HeroBackImg.webp";
+
 const HeroSection = ({ img, col }) => {
   return (
     <section
       className="section-hero"
       id="Hero_section"
       style={{
-        backgroundImage: `url('https://webbuggs.com/wp-content/uploads/2023/07/Rectangle-1249.webp')`,
+        backgroundImage: `url('${HeroBackImg}')`,
       }}
     >
       <div className="container">
@@ -25,14 +28,12 @@ const HeroSection = ({ img, col }) => {
             </div>
           </div>
           <div className={col ? `col-lg-${col}` : `col-lg-4`}>
-            <div className="home-hero-image">
-              <img
-                src={
-                  img
-                    ? img
-                    : "https://webbuggs.com/wp-content/uploads/2023/07/Group-10213.png"
-                }
-              />
+            <div
+              className="home-hero-image"
+              data-aos-once="true"
+              data-aos="zoom-in"
+            >
+              <img src={img ? img : HomeHeroImg} />
             </div>
           </div>
         </div>

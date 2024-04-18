@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ServicesImg } from "../../Constant/Const";
 
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import ContentUs from "../../Components/Form/Form";
+import ContentHeroImg from "../../assets/images/ContentHeroImg.png";
 
 const ContentUsScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
-      <HeroSection
-        img={"https://webbuggs.com/wp-content/uploads/2023/07/Group-10216.png"}
-      />
+      <HeroSection img={ContentHeroImg} />
       <ContentUs />
     </div>
   );

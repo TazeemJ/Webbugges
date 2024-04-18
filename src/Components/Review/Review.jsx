@@ -1,5 +1,7 @@
 import React from "react";
 import "./Review.css";
+import reviewSecImg from "../../assets/images/reviewSecImg.png";
+
 const Review = () => {
   return (
     <section className="review-sec">
@@ -35,10 +37,7 @@ const Review = () => {
           </div>
           <div className="col-md-6">
             <div className="review-main-img">
-              <img
-                src="https://webbuggs.com/wp-content/uploads/2022/10/Group-10059@2x.png"
-                alt=""
-              />
+              <img src={reviewSecImg} alt="" />
             </div>
           </div>
         </div>

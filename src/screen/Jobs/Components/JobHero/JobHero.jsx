@@ -1,9 +1,15 @@
 import React from "react";
 import "./JobHero.css";
+import JobsHeroImg from "../../../../assets/images/JobsHeroImg.png";
 
 const JobHero = () => {
   return (
-    <header className="my-job-header">
+    <header
+      className="my-job-header"
+      style={{
+        backgroundImage: `url("${JobsHeroImg}")`,
+      }}
+    >
       <div className="container">
         <div className="row">
           <div className="col">

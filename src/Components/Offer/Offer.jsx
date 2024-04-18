@@ -1,8 +1,10 @@
 import React from "react";
 import "./Offer.css";
+import WhatWeImg from "../../assets/images/WhatWeImg.png";
+
 const Offer = () => {
   return (
-    <section className="what-offer">
+    <section className="what-offer car">
       <div className="container">
         <div className="row">
           <div className="col">
@@ -12,11 +14,11 @@ const Offer = () => {
               </h3>
             </div>
             <div className="section-desc how-work">
-              <p>
-                We understand that every project is unique, so we’ll provide
-                bespoke quotations based on your specific requirements. But just
-                to give you an idea these are our Starting Prices for some of
-                the frequent services we provide.
+              <p className="section-desc">
+                Hello i am hashir We understand that every project is unique, so
+                we’ll provide bespoke quotations based on your specific
+                requirements. But just to give you an idea these are our
+                Starting Prices for some of the frequent services we provide.
               </p>
             </div>
           </div>
@@ -34,10 +36,7 @@ const Offer = () => {
                           return (
                             <div key={index} className="what-offer-box-wraper">
                               <div className="box-top-img">
-                                <img
-                                  src="http://webbuggs.com/wp-content/uploads/2022/10/Group-10077.png"
-                                  alt=""
-                                />
+                                <img src={WhatWeImg} alt="" />
                               </div>
                               <div className="what-offer-box">
                                 <div className="box-text-img">

@@ -1,28 +1,28 @@
 import React from "react";
 import "./Webdevelopment.css";
+import ProductWebdevelomentImg from "../../../../assets/images/ProductWebdevelomentImg.png";
+
 const Webdevelopment = ({ Data }) => {
   return (
     <section id="webdevelopment" className="web-developement section-commen">
       <div className="container">
         <div className={`row ${!Data.Direction ? "flex-row-reverse" : ""}`}>
           <div className="col-lg-6">
-            <div className="image-wraper">
-              <img
-                data-aos="fade-right"
-                data-aos-easing="ease-in-sine"
-                data-aos-duration="1000"
-                src="https://webbuggs.com/wp-content/uploads/2023/10/Artboard-1-copy-2.png"
-                alt=""
-                className="aos-init aos-animate"
-              />
+            <div
+              className="image-wraper"
+              // data-aos="fade-right"
+              data-aos={`${!Data.Direction ? "fade-left" : "fade-right"}`}
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
+              <img src={ProductWebdevelomentImg} alt="" />
             </div>
           </div>
           <div className="col-lg-6 pr-0">
             <div className="content-wraper">
               <div className="section-sub-heading">
                 <img
-                  src="
-                     https://webbuggs.com/wp-content/uploads/2022/04/HYDING-TOP.png"
+                  src="https://webbuggs.com/wp-content/uploads/2022/04/HYDING-TOP.png"
                   alt=""
                 />
                 <h6>Branding</h6>

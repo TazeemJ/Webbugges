@@ -1,0 +1,18 @@
+section.about-sec {
+  padding: 5% 11% 5% 10% !important;
+}
+.about-wrap h3 {
+  font-weight: 700;
+  color: #333333;
+  padding: 0 0 6px 0;
+  font-family: var(--bebus-font);
+  font-size: 48px;
+  line-height: 53px;
+  margin: 0;
+}
+.about-wrap p {
+  color: #666666;
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 13px;
+}

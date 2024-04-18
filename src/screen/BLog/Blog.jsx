@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSecBlog from "./Section/HeroSecBlog";
 import "./Blog.css";
 import Card from "./Components/Card";
 
 const Blog = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <HeroSecBlog />

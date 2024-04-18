@@ -1,5 +1,7 @@
 import React from "react";
 import "./Card.css";
+import BlogCardImg from "../../../assets/images/BlogCardImg.jpg";
+
 const Card = () => {
   return (
     <div className="col-lg-4 blog-page-post-div">
@@ -8,7 +10,7 @@ const Card = () => {
           <img
             width="410"
             height="232"
-            src="https://webbuggs.com/wp-content/uploads/2023/08/shopify-store-redesign.jpg"
+            src={BlogCardImg}
             className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
             alt="Shopify Redesign"
             decoding="async"
@@ -20,7 +22,7 @@ const Card = () => {
       <h2 className="post-title">
         <a>Shopify Store Redesign: Giving Your Online Presence a Fresh Boost</a>
       </h2>
-      <p className="post-content">
+      <p className="post-contents">
         Is your online store feeling a bit stale? Are your conversion rates not
         where you’d like them to be? Your Shopify store used to look great, but
         now it might seem old and unattractive to people who want to buy

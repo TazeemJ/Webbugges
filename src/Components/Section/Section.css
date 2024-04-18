@@ -25,11 +25,11 @@
 .section-heading h3 span {
   color: #03a6d9;
 }
-.section-desc p {
+.section p {
   font-family: Poppins;
   font-size: 16px;
   line-height: 27px;
-  color: #4d4d4d;
+  color: #080bc0;
   margin: 0;
   text-align: center;
 }
@@ -39,11 +39,10 @@
   padding: 50px 0px;
 }
 #Hero_section .hero-text-container {
-     display: flex;
-    justify-content: start;
-    align-items: center;
-    height: 100%;
-
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
 }
 .hero-heading-container a {
   font-family: "Bebas Neue", sans-serif;

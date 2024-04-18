@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ServicesImg } from "../../Constant/Const";
 import JobHero from "./Components/JobHero/JobHero";
 import "./Jobs.css";
 
 const Jobs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <JobHero />

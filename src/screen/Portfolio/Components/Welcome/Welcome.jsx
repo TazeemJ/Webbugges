@@ -1,5 +1,7 @@
 import React from "react";
 import "./Welcome.css";
+import WelCome_img from "../../../../assets/images/WelCome_img.webp";
+
 const Welcome = () => {
   return (
     <section className="welcome-sec">
@@ -25,7 +27,7 @@ const Welcome = () => {
           <div className="col-lg-6">
             <div className="excellence-image-wraper">
               <img
-                src="https://webbuggs.com/wp-content/uploads/2023/09/image-1.webp"
+                src={WelCome_img}
                 alt=""
               />
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import headerLogo from "../../assets/images/headerlogo.png";
 
 import "./Header.css"; // External CSS file for styles
 
@@ -9,11 +10,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg ">
         <div className="container-lg">
           <Link to={"/"} className="navbar-brand">
-            <img
-              width={"280px"}
-              src="https://webbuggs.com/wp-content/themes/wp-bootstrap-starter/inc/assets/web_buggs_images/main_page/min%20header%20logo.png?_t=1665689884"
-              alt=""
-            />
+            <img width={"280px"} src={headerLogo} alt="" />
           </Link>
           <button
             className="navbar-toggler"

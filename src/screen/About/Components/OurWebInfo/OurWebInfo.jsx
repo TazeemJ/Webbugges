@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurWebInfo.css";
+import Who_weImg from "../../../../assets/images/Who_weImg.png";
 
 const OurWebInfo = () => {
   return (
@@ -25,10 +26,7 @@ const OurWebInfo = () => {
           </div>
           <div className="col-lg-6 p-0">
             <div className="who-we-image-col">
-              <img
-                src="https://webbuggs.com/wp-content/uploads/2022/04/Webp.net-resizeimage-1.png"
-                alt=""
-              />
+              <img src={Who_weImg} alt="" />
             </div>
           </div>
         </div>

@@ -19,6 +19,12 @@
   display: block;
   width: 100%;
 }
+.section-desc {
+  text-align: center;
+}
+.services-slider .slick-slide img {
+  width: 115px;
+}
 .serives-wraper h4 {
   font-size: 21px;
   margin: 0;

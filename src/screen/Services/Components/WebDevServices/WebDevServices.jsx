@@ -1,17 +1,19 @@
 import React from "react";
 import "./WebDevServices.css";
 
-const WebDevServices = ({direction}) => {
+const WebDevServices = ({ direction }) => {
   return (
     <section id="webdevelopment" className="web-developement section-commen">
       <div className="container">
         <div className={`row ${direction && "flex-row-reverse"} `}>
           <div className="col-lg-6">
-            <div className="image-wraper">
+            <div
+              className="image-wraper"
+              data-aos={`${direction ? "fade-left" : "fade-right"}`}
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
               <img
-                data-aos="fade-right"
-                data-aos-easing="ease-in-sine"
-                data-aos-duration="1000"
                 src="https://webbuggs.com/wp-content/uploads/2023/07/Group-10226.png"
                 alt=""
                 className="aos-init aos-animate"

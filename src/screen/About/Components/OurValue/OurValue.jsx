@@ -1,5 +1,9 @@
 import React from "react";
 import "./OurValue.css";
+import Value1Img from "../../../../assets/images/Value1Img.png";
+import Value2Img from "../../../../assets/images/Value2Img.png";
+import Value3Img from "../../../../assets/images/Value3Img.png";
+import Value4Img from "../../../../assets/images/Value4Img.png";
 
 const OurValue = () => {
   return (
@@ -11,10 +15,7 @@ const OurValue = () => {
               <div className="row our-values-cards-row1">
                 <div className="col-md-6">
                   <div className="our-values-card-wraper box1">
-                    <img
-                      src="https://webbuggs.com/wp-content/uploads/2022/04/Asset-33.png"
-                      alt=""
-                    />
+                    <img src={Value1Img} alt="" />
                     <h4>Authenticity</h4>
                     <h6>
                       Get to know every member of your Webbuggs team as we work
@@ -25,10 +26,7 @@ const OurValue = () => {
                 </div>
                 <div className="col-md-6">
                   <div className="our-values-card-wraper box2">
-                    <img
-                      src="https://webbuggs.com/wp-content/uploads/2022/07/Group-55@2x.png"
-                      alt=""
-                    />
+                    <img src={Value2Img} alt="" />
                     <h4>transparency.</h4>
                     <h6>
                       See accurate estimations of time and resources spent with
@@ -41,10 +39,7 @@ const OurValue = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="our-values-card-wraper box3">
-                    <img
-                      src="https://webbuggs.com/wp-content/uploads/2022/07/Group-53@2x.png"
-                      alt=""
-                    />
+                    <img src={Value3Img} alt="" />
                     <h4>Communication</h4>
                     <h6>
                       Integrate Webbuggs with your communication apps and work
@@ -55,10 +50,7 @@ const OurValue = () => {
                 </div>
                 <div className="col-md-6">
                   <div className="our-values-card-wraper box4">
-                    <img
-                      src="https://webbuggs.com/wp-content/uploads/2022/07/Group-68@2x.png"
-                      alt=""
-                    />
+                    <img src={Value4Img} alt="" />
                     <h4>Ownership</h4>
                     <h6>
                       Benefit from a software partner that works with you to

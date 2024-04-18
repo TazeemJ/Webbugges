@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./HomeWork.css";
 import Slider from "react-slick";
+import HomeWorkSection from "../../assets/images/HomeWorkSection.png";
 
 const HomeWork = () => {
   const settings = {
@@ -32,7 +33,7 @@ const HomeWork = () => {
         <div className="row">
           <div className="col">
             <div className="section-heading">
-              <h3>
+              <h3 data-aos="fade-up" data-aos-duration="900">
                 How Does <span>It Work?</span>
               </h3>
             </div>
@@ -49,10 +50,7 @@ const HomeWork = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="how-work-img">
-              <img
-                src="https://webbuggs.com/wp-content/uploads/2023/03/Group-10060@2x-2.png"
-                alt=""
-              />
+              <img src={HomeWorkSection} alt="" />
             </div>
           </div>
           <div className="col-md-6 how-work-col">
